@@ -18,10 +18,8 @@ Host prerequisites:
 simplify the prerequisites.)
 
 For convenience, there is a pre-built 4.8 rc kernel which includes the e1000
-patch from [git:ast/xdp](1). Feel free to build your own, or if you're reading
+patch from [git:ast/xdp](http://git.kernel.org/cgit/linux/kernel/git/ast/bpf.git/commit/?h=xdp&id=e643c99556770a6b77c1330bcd9d28d578026788). Feel free to build your own, or if you're reading
 this from the future, likely 4.9 will have support for it.
-
-[1]: http://git.kernel.org/cgit/linux/kernel/git/ast/bpf.git/commit/?h=xdp&id=e643c99556770a6b77c1330bcd9d28d578026788
 
 
 First, bring the vagrant box up, with userspace tools (bcc) and custom kernel.
