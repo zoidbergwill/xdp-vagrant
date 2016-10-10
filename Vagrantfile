@@ -20,5 +20,6 @@ Vagrant.configure('2') do |config|
   config.vm.provision :shell, :privileged => true, :path => "setup-kernel.sh"
   config.vm.provision :reload
   config.vm.provision :shell, :privileged => true, :path => "setup-bcc.sh"
+  config.vm.provision :shell, :privileged => true, :path => "setup-xdp-script.sh"
 end
 
